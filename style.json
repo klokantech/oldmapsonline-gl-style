@@ -2468,7 +2468,7 @@
         "mapbox:group": "1444849334699.1902"
       },
       "source": "openmaptiles",
-      "source-layer": "railway",
+      "source-layer": "transportation",
       "filter": [
         "all",
         [
