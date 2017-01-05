@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "OldMapsOnline Revival",
+  "name": "OldMapsOnline",
   "metadata": {
     "mapbox:type": "template",
     "mapbox:groups": {
@@ -39,16 +39,16 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
-    8.543946535882725,
-    47.36830750608843
+    8.55579670834291,
+    47.367953345481965
   ],
-  "zoom": 14.74940434391618,
+  "zoom": 14.172574107266772,
   "bearing": 0,
   "pitch": 0,
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "mapbox://openmaptiles.4qljc88t"
+      "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY"
     }
   },
   "sprite": "https://klokantech.github.io/oldmapsonline-gl-style/sprite",
@@ -898,29 +898,10 @@
     },
     {
       "id": "tunnel-service-track",
-      "type": "line",
       "metadata": {
         "mapbox:group": "1444849354174.1904"
       },
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "filter": [
-        "all",
-        [
-          "==",
-          "brunnel",
-          "tunnel"
-        ],
-        [
-          "in",
-          "class",
-          "service",
-          "track"
-        ]
-      ],
-      "layout": {
-        "line-join": "round"
-      },
+      "ref": "tunnel-service-track-casing",
       "paint": {
         "line-color": "#fff",
         "line-width": {
@@ -1565,31 +1546,10 @@
     },
     {
       "id": "highway-motorway-link",
-      "type": "line",
       "metadata": {
         "mapbox:group": "1444849345966.4436"
       },
-      "source": "openmaptiles",
-      "source-layer": "transportation",
-      "minzoom": 12,
-      "filter": [
-        "all",
-        [
-          "!in",
-          "brunnel",
-          "bridge",
-          "tunnel"
-        ],
-        [
-          "==",
-          "class",
-          "motorway_link"
-        ]
-      ],
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round"
-      },
+      "ref": "highway-motorway-link-casing",
       "paint": {
         "line-color": "#cb9999",
         "line-width": {
@@ -2727,6 +2687,11 @@
         [
           "all",
           [
+            ">=",
+            "rank",
+            25
+          ],
+          [
             "in",
             "class",
             "art",
@@ -2748,11 +2713,6 @@
             "swimming_pool",
             "theme_park",
             "townhall"
-          ],
-          [
-            ">=",
-            "rank",
-            25
           ]
         ]
       ],
