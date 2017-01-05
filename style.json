@@ -3070,20 +3070,11 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
-        "all",
-        [
-          "!in",
-          "subclass",
-          "city",
-          "town",
-          "village"
-        ],
-        [
-          "in",
-          "class",
-          "settlement",
-          "subregion"
-        ]
+        "!in",
+        "class",
+        "city",
+        "town",
+        "village"
       ],
       "layout": {
         "text-letter-spacing": 0.1,
@@ -3124,7 +3115,7 @@
       "source-layer": "place",
       "filter": [
         "==",
-        "subclass",
+        "class",
         "village"
       ],
       "layout": {
@@ -3164,7 +3155,7 @@
       "source-layer": "place",
       "filter": [
         "==",
-        "subclass",
+        "class",
         "town"
       ],
       "layout": {
@@ -3211,7 +3202,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "city"
         ]
       ],
@@ -3259,7 +3250,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "city"
         ]
       ],
