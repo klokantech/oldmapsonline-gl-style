@@ -17,7 +17,7 @@
         "name": "Land"
       },
       "1444849242106.713": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Places"
       },
       "1444849382550.77": {
@@ -39,10 +39,10 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.805mi4we"
   },
   "center": [
-    13.997549878203387,
-    46.441956327531415
+    8.545896552022356,
+    47.36684982332028
   ],
-  "zoom": 2.5463685424006317,
+  "zoom": 15.238717792039212,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -2999,8 +2999,8 @@
       ],
       "layout": {
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Klokantech Noto Sans Bold",
+          "Klokantech Noto Sans CJK Bold"
         ],
         "text-size": {
           "base": 1.2,
@@ -3047,8 +3047,8 @@
       ],
       "layout": {
         "text-font": [
-          "Klokantech Noto Sans Regular",
-          "Klokantech Noto Sans CJK Regular"
+          "Klokantech Noto Sans Bold",
+          "Klokantech Noto Sans CJK Bold"
         ],
         "text-size": {
           "base": 1.2,
