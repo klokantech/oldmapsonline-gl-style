@@ -36,7 +36,7 @@
     "mapbox:autocomposite": false,
     "openmaptiles:version": "3.x",
     "openmaptiles:mapbox:owner": "openmaptiles",
-    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.805mi4we"
+    "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
     8.543946535882725,
@@ -48,7 +48,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://free.tilehosting.com/data/v3.json?key=tXiQqN3lIgskyDErJCeY"
+      "url": "mapbox://openmaptiles.4qljc88t"
     }
   },
   "sprite": "https://klokantech.github.io/oldmapsonline-gl-style/sprite",
@@ -108,7 +108,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "commercial"
         ]
       ],
@@ -134,7 +134,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "industrial"
         ]
       ],
@@ -913,7 +913,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "service",
           "track"
         ]
@@ -1249,7 +1249,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "primary_link",
           "secondary_link",
           "tertiary_link",
@@ -1377,7 +1377,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "secondary",
           "tertiary"
         ]
@@ -1423,7 +1423,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "primary",
           "trunk"
         ]
@@ -1478,7 +1478,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "motorway"
         ]
       ],
@@ -1582,7 +1582,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "motorway_link"
         ]
       ],
@@ -1726,7 +1726,7 @@
           ],
           [
             "in",
-            "subclass",
+            "class",
             "primary",
             "trunk"
           ]
@@ -1784,7 +1784,7 @@
           ],
           [
             "==",
-            "subclass",
+            "class",
             "motorway"
           ]
         ]
@@ -2019,7 +2019,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "motorway_link"
         ]
       ],
@@ -2069,7 +2069,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "primary_link",
           "secondary_link",
           "tertiary_link",
@@ -2122,7 +2122,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "secondary",
           "tertiary"
         ]
@@ -2165,7 +2165,7 @@
         ],
         [
           "in",
-          "subclass",
+          "class",
           "primary",
           "trunk"
         ]
@@ -2215,7 +2215,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "motorway"
         ]
       ],
@@ -2728,7 +2728,7 @@
           "all",
           [
             "in",
-            "subclass",
+            "class",
             "art",
             "artwork",
             "attraction",
@@ -2808,7 +2808,7 @@
           ],
           [
             "in",
-            "subclass",
+            "class",
             "art",
             "artwork",
             "attraction",
@@ -2882,7 +2882,7 @@
           ],
           [
             "in",
-            "subclass",
+            "class",
             "art",
             "artwork",
             "attraction",
