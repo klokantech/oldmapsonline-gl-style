@@ -39,10 +39,10 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.805mi4we"
   },
   "center": [
-    8.545896552022356,
-    47.36684982332028
+    8.543946535882725,
+    47.36830750608843
   ],
-  "zoom": 15.238717792039212,
+  "zoom": 14.74940434391618,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -2709,6 +2709,224 @@
         "text-color": "hsl(199, 19%, 69%)",
         "text-halo-width": 1.2,
         "text-halo-color": "rgba(255,255,255,0.7)"
+      }
+    },
+    {
+      "id": "poi-level-3",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 16,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "all",
+          [
+            "in",
+            "subclass",
+            "art",
+            "artwork",
+            "attraction",
+            "camp_site",
+            "cemetery",
+            "college",
+            "community_centre",
+            "gallery",
+            "gallery",
+            "grave_yard",
+            "hospital",
+            "monument",
+            "museum",
+            "park",
+            "pitch",
+            "school",
+            "swimming_pool",
+            "theme_park",
+            "townhall"
+          ],
+          [
+            ">=",
+            "rank",
+            25
+          ]
+        ]
+      ],
+      "layout": {
+        "text-size": 12,
+        "icon-image": "{class}_11",
+        "text-font": [
+          "Open Sans Semibold",
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
+        ],
+        "text-padding": 2,
+        "visibility": "visible",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-level-2",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 15,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "all",
+          [
+            "<=",
+            "rank",
+            24
+          ],
+          [
+            ">=",
+            "rank",
+            15
+          ],
+          [
+            "in",
+            "subclass",
+            "art",
+            "artwork",
+            "attraction",
+            "camp_site",
+            "cemetery",
+            "college",
+            "community_centre",
+            "gallery",
+            "gallery",
+            "grave_yard",
+            "hospital",
+            "monument",
+            "museum",
+            "park",
+            "pitch",
+            "school",
+            "swimming_pool",
+            "theme_park",
+            "townhall"
+          ]
+        ]
+      ],
+      "layout": {
+        "text-size": 12,
+        "icon-image": "{class}_11",
+        "text-font": [
+          "Open Sans Semibold",
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
+        ],
+        "text-padding": 2,
+        "visibility": "visible",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-anchor": "top",
+        "text-field": "{name}",
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
+      }
+    },
+    {
+      "id": "poi-level-1",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "poi",
+      "minzoom": 14,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "all",
+          [
+            "<=",
+            "rank",
+            14
+          ],
+          [
+            "has",
+            "name"
+          ],
+          [
+            "in",
+            "subclass",
+            "art",
+            "artwork",
+            "attraction",
+            "camp_site",
+            "cemetery",
+            "college",
+            "community_centre",
+            "gallery",
+            "gallery",
+            "grave_yard",
+            "hospital",
+            "monument",
+            "museum",
+            "park",
+            "pitch",
+            "school",
+            "swimming_pool",
+            "theme_park",
+            "townhall"
+          ]
+        ]
+      ],
+      "layout": {
+        "text-padding": 2,
+        "text-font": [
+          "Open Sans Semibold",
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
+        ],
+        "text-anchor": "top",
+        "icon-image": "{class}_11",
+        "text-field": "{name}",
+        "text-offset": [
+          0,
+          0.6
+        ],
+        "text-size": 12,
+        "text-max-width": 9
+      },
+      "paint": {
+        "text-halo-blur": 0.5,
+        "text-color": "#666",
+        "text-halo-width": 1,
+        "text-halo-color": "#ffffff"
       }
     },
     {
