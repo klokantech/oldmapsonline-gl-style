@@ -39,10 +39,10 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
-    26.324112664191773,
-    22.721201576551465
+    8.604369505801515,
+    47.36405700019185
   ],
-  "zoom": 2.180344220884792,
+  "zoom": 10.842731987503667,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -436,7 +436,6 @@
       },
       "source": "openmaptiles",
       "source-layer": "water",
-      "maxzoom": 8,
       "filter": [
         "==",
         "$type",
