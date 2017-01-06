@@ -21,7 +21,7 @@
         "name": "Places"
       },
       "1444849382550.77": {
-        "collapsed": true,
+        "collapsed": false,
         "name": "Water"
       },
       "1444849345966.4436": {
@@ -39,10 +39,10 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "center": [
-    8.55579670834291,
-    47.367953345481965
+    26.324112664191773,
+    22.721201576551465
   ],
-  "zoom": 14.172574107266772,
+  "zoom": 2.180344220884792,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -413,6 +413,22 @@
       }
     },
     {
+      "id": "water",
+      "type": "fill",
+      "metadata": {
+        "mapbox:group": "1444849382550.77"
+      },
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-color": "hsl(199, 19%, 69%)",
+        "fill-outline-color": "hsl(199, 9%, 71%)"
+      }
+    },
+    {
       "id": "water-offset",
       "type": "fill",
       "metadata": {
@@ -451,22 +467,6 @@
             ]
           ]
         }
-      }
-    },
-    {
-      "id": "water",
-      "type": "fill",
-      "metadata": {
-        "mapbox:group": "1444849382550.77"
-      },
-      "source": "openmaptiles",
-      "source-layer": "water",
-      "layout": {
-        "visibility": "visible"
-      },
-      "paint": {
-        "fill-color": "hsl(199, 19%, 69%)",
-        "fill-outline-color": "hsl(199, 9%, 71%)"
       }
     },
     {
