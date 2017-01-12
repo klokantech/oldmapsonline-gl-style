@@ -5,6 +5,7 @@ node_js:
 branches:
   only:
   - master
+  - /^v\d+(\.\d+)*$/
 addons:
   apt:
     sources:
@@ -19,4 +20,10 @@ script:
 env:
   global:
     - secure: "q54cwUU3McxMH00YwHCkjH4cFxTJeuOydEomF2fK2+4Hx4KvIIaTb1IOiNlSVRFO+fWao/Kbk0LPGoWqXqA/0SMukz8DqKjx/HtslvBZA6YoLOPLfH862AcVZDKwuoShqFJeTScQIuMXRpUVHUmpQXrtXLcYX6PaFe+uz9/V5ZHX6Huve6EqFlFoM+xIa3X2RdD4q9S1xUkaBUtW5zq+lH4uuijrWlDTwcXsYETsQzgr9RyiOGUBBMljCpbSUXvlvF3rSkGFuTaaYaHtDMYupU9aQMlHD8Ie/0WIsqQgJFnnGsrfft4G9/DNimSpehQ3DpBo0ywXAOVKf0/yQT2X6vfcYq1BjtfNheRZ7yVRFhtmC4gcvz+D0I0vzydjF6+ph//7wdlIihEDxtxo43K/0NY3wywUtDyEzIxiNlBukVkyijugDZ+mjPcE33lCs8GGTMK/fQBUPHJp+efZvVgoXXYWQd3qS5YHdw0Ot6t2xxXUPToDMgDYQwcGzEvkJ4waTPIYcY0fpWcUbY4AstZ7p42x804u4Qq0Uv34dUDFNI06xrjjV37YiRs3JtPOEaaj8JUMmVHhGVIdZ+zLdkAT5/A0Q34GUod7LjPstwi8YxwMjCkr5+RFjOChHVtRCixzqPW3ZZo+siH+tuPk6QJK6zXDarPvbdcfGKDZ9J8rKLY="
- 
+deploy:
+  provider: releases
+  api_key: ${GITHUB_TOKEN}
+  file: build/${TRAVIS_TAG}.zip
+  skip_cleanup: true
+  on:
+    tags: true 
