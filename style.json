@@ -445,8 +445,8 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-opacity": 0.3,
-        "fill-color": "white",
+        "fill-opacity": 1,
+        "fill-color": "rgba(189, 203, 210, 1)",
         "fill-translate": {
           "base": 1,
           "stops": [
@@ -1712,6 +1712,8 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 6,
+      "maxzoom": 24,
       "filter": [
         "all",
         [
@@ -1751,9 +1753,7 @@
             ]
           ]
         }
-      },
-      "minzoom": 6,
-      "maxzoom": 24
+      }
     },
     {
       "id": "highway-trunk-casing",
@@ -1763,6 +1763,8 @@
       },
       "source": "openmaptiles",
       "source-layer": "transportation",
+      "minzoom": 6,
+      "maxzoom": 24,
       "filter": [
         "all",
         [
@@ -1802,9 +1804,7 @@
             ]
           ]
         }
-      },
-      "minzoom": 6,
-      "maxzoom": 24
+      }
     },
     {
       "id": "highway-motorway-casing",
