@@ -3925,6 +3925,54 @@
       }
     },
     {
+      "id": "place-country-other",
+      "type": "symbol",
+      "metadata": {
+        "mapbox:group": "1444849242106.713"
+      },
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "filter": [
+        "all",
+        [
+          "==",
+          "class",
+          "country"
+        ],
+        [
+          "!has",
+          "iso_a2"
+        ]
+      ],
+      "layout": {
+        "text-font": [
+          "Klokantech Noto Sans Regular",
+          "Klokantech Noto Sans CJK Regular"
+        ],
+        "text-field": "{name_en}",
+        "text-size": {
+          "stops": [
+            [
+              3,
+              10
+            ],
+            [
+              7,
+              16
+            ]
+          ]
+        },
+        "text-transform": "uppercase",
+        "text-max-width": 6.25
+      },
+      "paint": {
+        "text-halo-blur": 1,
+        "text-color": "#334",
+        "text-halo-width": 2,
+        "text-halo-color": "rgba(255,255,255,0.8)"
+      }
+    },
+    {
       "id": "place-country-3",
       "type": "symbol",
       "metadata": {
@@ -3943,6 +3991,10 @@
           ">=",
           "rank",
           3
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
@@ -3992,6 +4044,10 @@
           "==",
           "rank",
           2
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
@@ -4041,6 +4097,10 @@
           "==",
           "rank",
           1
+        ],
+        [
+          "has",
+          "iso_a2"
         ]
       ],
       "layout": {
