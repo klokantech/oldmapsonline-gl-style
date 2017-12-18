@@ -3272,7 +3272,7 @@
           "Noto Sans Italic"
         ],
         "text-size": 10,
-        "text-field": "{name}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3300,7 +3300,7 @@
           "Noto Sans Italic"
         ],
         "text-size": 14,
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3328,7 +3328,7 @@
           "Noto Sans Italic"
         ],
         "text-size": 14,
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 5,
         "text-rotation-alignment": "map",
         "symbol-placement": "line",
@@ -3400,7 +3400,7 @@
           0.6
         ],
         "text-anchor": "top",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 9
       },
       "paint": {
@@ -3474,7 +3474,7 @@
           0.6
         ],
         "text-anchor": "top",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 9
       },
       "paint": {
@@ -3541,7 +3541,7 @@
         ],
         "text-anchor": "top",
         "icon-image": "{class}_11",
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-offset": [
           0,
           0.6
@@ -3584,7 +3584,7 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-field": "{name}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -3633,7 +3633,7 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-field": "{name}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -3674,7 +3674,7 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-field": "{name}",
+        "text-field": "{name:latin} {name:nonlatin}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map"
       },
@@ -3718,7 +3718,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-transform": "uppercase",
         "text-max-width": 9
       },
@@ -3758,7 +3758,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8
       },
       "paint": {
@@ -3797,7 +3797,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8
       },
       "paint": {
@@ -3844,7 +3844,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8
       },
       "paint": {
@@ -3891,7 +3891,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-max-width": 8,
         "icon-image": "star_11",
         "text-offset": [
@@ -3931,7 +3931,7 @@
         "text-font": [
           "Noto Sans Regular"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {
           "stops": [
             [
@@ -3983,7 +3983,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {
           "stops": [
             [
@@ -4035,7 +4035,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {
           "stops": [
             [
@@ -4087,7 +4087,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": {
           "stops": [
             [
@@ -4128,7 +4128,7 @@
         "text-font": [
           "Noto Sans Bold"
         ],
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-size": 14,
         "text-max-width": 6.25,
         "text-transform": "uppercase"
