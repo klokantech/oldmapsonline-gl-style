@@ -3694,11 +3694,13 @@
       "source": "openmaptiles",
       "source-layer": "place",
       "filter": [
-        "!in",
+        "in",
         "class",
-        "city",
-        "town",
-        "village"
+        "state",
+        "hamlet",
+        "suburb",
+        "neighbourhood",
+        "isolated_dwelling"
       ],
       "layout": {
         "text-letter-spacing": 0.1,
